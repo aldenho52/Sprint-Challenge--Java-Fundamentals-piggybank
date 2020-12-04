@@ -23,9 +23,20 @@ Commit your code regularly and meaningfully. This helps both you (in case you ev
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
 1. Explain how you took advantage of Java's Object Oriented approach to solve the sprint challenge.
+
+I took advantage of Java's Object Oriented approach to solve the sprint challenge by creating classes for every type of object I wanted to create. I was able to make multiple objects of the same class, gather them into a list, and use that to solve the sprint challenge.
+
 2. Explain theq three steps needed to run a Java application (using the JDK) including what each step does and how those step correlate to running a JavaScript application.
+
+First I had to write the source code using IntelliJ. I then had to use my IDE which acts as a compiler and changes that code to be read by the JVM as bytecode. I lastly deployed my server using IDE again and spring application which I successfully checked using Postman.
+
 3. Explain how Java being a strongly typed language affected you solution.
+
+Java being strongly typed affected my solution because it made me choose appropriate data types for each value in our data. This included properly selecting primitive and non-primitive data types which allowed me to easily manipulate the data and produce the correct solution in the console. Without strongly typed language, this would have been much messier.
+
 4. Can you explain the differences between Abstract Classes and Interfaces including how they are used in your application?
+
+Classes can only inhert from multiple interfaces but only one abstract class. Abstract classes also contain fields where as interfaces should not. Abstract classes implement methods across the class whereas interfaces just provide method headers to be changed within each individual class. Java with the spring framework tends to use interfaces more than abstract classes. I used interfaces for my repository file and my tester file. I did not use abstract classes.
 
 ## Instructions
 
